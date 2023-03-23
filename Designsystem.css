@@ -1,0 +1,364 @@
+* { box-sizing: border-box;
+}
+
+body {
+  background: -webkit-linear-gradient(bottom right, #22173A, #212121); 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Image/wallhaven-4y88dl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10px 10px 0px;
+  padding: 0px 200px;
+  border-radius: 15px;
+}
+
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: rgb(219, 219, 219);
+  font-size: 64px;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin-top: 100px;
+  min-width: 800px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  color: rgb(219, 219, 219);
+  font-size: 28px;
+  font-family: Helvetica, sans-serif;
+  margin-top:20px;
+  min-width: 500px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav li {
+  color: rgb(219, 219, 219);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: rgb(61, 61, 61);
+  padding: 20px 35px;
+  border-radius: 15px;
+  margin: 100px auto;  
+}
+
+.button:hover {
+  color: rgb(49, 195, 214);
+  box-shadow: inset 0 0 5px rgb(21, 142, 255);
+}
+
+.nav > .button-active {
+  background-color: rgb(61, 61, 61);
+  padding: 20px 35px;
+  border-radius: 15px;
+  margin: 100px auto;  
+  color: rgb(49, 195, 214);
+  box-shadow: inset 0 0 5px rgb(21, 142, 255);
+}
+
+.colorsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #1b1b1bbb;
+  margin: 10px 10px 0px;
+  padding: 0px 200px;
+  border-radius: 15px;
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px;
+  padding-right: 100px;
+  border-radius: 15px;
+  background-color: #212121;
+  min-width: 500px;
+}
+
+.color {
+  height: 200px;
+  width: 200px;
+  background-color: #5D52D9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin: 25px 25px;
+}
+
+.content > h1 {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:rgb(219, 219, 219);
+  margin-left: 25px;
+}
+
+.content > p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 36px;
+  width: 200px;
+  color:rgb(219, 219, 219);
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.color-2 {
+  height: 200px;
+  width: 200px;
+  background-color: #4FC5EB;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin: 25px 25px;
+}
+
+
+.color-3 {
+  height: 200px;
+  width: 200px;
+  background-color: #0891B2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin: 25px 25px;
+}
+
+
+.color-4 {
+  height: 200px;
+  width: 200px;
+  background-color: #3592B4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin: 25px 25px;
+}
+
+.color-5 {
+  height: 200px;
+  width: 200px;
+  background-color: #2DD4BF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin: 25px 25px;
+}
+
+.color-6 {
+  height: 200px;
+  width: 200px;
+  background-color: #D1B3FF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin: 25px 25px;
+}
+
+
+.color-7 {
+  height: 200px;
+  width: 200px;
+  background-color: #B5D8FF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin: 25px 25px;
+}
+
+.color-8 {
+  height: 200px;
+  width: 200px;
+  background-color: #99FDFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  margin: 25px 25px;
+}
+
+
+/* For Typeface */
+
+
+.fontsection {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background-color: #1b1b1b6b;
+  margin: 10px 10px 0px;
+  padding: 0px 200px;
+  border-radius: 15px;
+}
+
+
+.fontname {
+  display: flex;
+  align-self: flex-start;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 64px;
+  color:rgb(219, 219, 219);
+  padding: 50px 0px;
+}
+
+.example {
+  display: flex;
+  align-self: flex-start;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 48px;
+  line-height: 64px;
+  margin: 50px 0px;
+  color:rgba(219, 219, 219, 0.5);
+}
+
+
+.fontnamebold {
+  display: flex;
+  align-self: flex-start;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color:rgb(219, 219, 219);
+  padding: 50px 0px;
+}
+
+.examplebold {
+  display: flex;
+  align-self: flex-start;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  margin: 50px 0px;
+  color:rgba(219, 219, 219, 0.5);
+}
+
+
+/* For botton */
+
+.buttonsection {
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+  background-color: #1b1b1b6b;
+  margin: 10px 10px 0px;
+  padding: 0px 200px;
+  border-radius: 15px;
+}
+
+
+.buttonexample {
+  display: flex;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 48px;
+  margin: 50px 0px;
+  border-radius: 15px;
+  padding: 20px 30px;
+  color:rgb(219, 219, 219);
+  background: rgba(17, 149, 106, 1.0);
+  background: -webkit-linear-gradient(right, rgba(17, 149, 106, 1.0), rgba(19, 40, 133, 1.0));
+  background: -moz-linear-gradient(right, rgba(17, 149, 106, 1.0), rgba(19, 40, 133, 1.0));
+  background: linear-gradient(to left, rgba(17, 149, 106, 1.0), rgba(19, 40, 133, 1.0));
+  }
+
+.buttoncard {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+
+.buttoncard > h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-left: 100px;
+  font-size: 36px;
+  font-weight: bold;
+  color:rgb(219, 219, 219);
+}
+
+
+
+.buttonguide {
+  display: flex;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 28px;
+  margin-left: 100px;
+  max-width: 700px;
+  min-width: 700px;
+  color:rgb(219, 219, 219);
+  line-height: 35px;
+}
+
+
+.buttonexample-hovering {
+  display: flex;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 48px;
+  margin: 50px 0px;
+  border-radius: 15px;
+  padding: 20px 30px;
+  color:rgba(219, 219, 219, 0.7);
+  box-shadow: 0px 0px 5px rgb(9, 189, 129);
+  border: 1px solid rgba(9, 189, 129, 0.8);
+  background: rgba(17, 149, 106, 1.0);
+  background: -webkit-linear-gradient(right, rgba(17, 149, 106, 1.0), rgba(19, 40, 133, 1.0));
+  background: -moz-linear-gradient(right, rgba(17, 149, 106, 1.0), rgba(19, 40, 133, 1.0));
+  background: linear-gradient(to left, rgba(17, 149, 106, 1.0), rgba(19, 40, 133, 1.0));
+  }
+
+
+  .buttonexample-visited {
+    display: flex;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 48px;
+    margin: 50px 0px;
+    border-radius: 15px;
+    padding: 20px 30px;
+    color:rgba(19, 3, 48, 0.7);
+    box-shadow: inset 2px 2px rgba(19, 3, 48, 0.7);
+    background: rgba(17, 149, 106, 1.0);
+    background: -webkit-linear-gradient(right, rgba(17, 149, 106, 1.0), rgba(19, 40, 133, 1.0));
+    background: -moz-linear-gradient(right, rgba(17, 149, 106, 1.0), rgba(19, 40, 133, 1.0));
+    background: linear-gradient(to left, rgba(17, 149, 106, 1.0), rgba(19, 40, 133, 1.0));
+    }
+  
